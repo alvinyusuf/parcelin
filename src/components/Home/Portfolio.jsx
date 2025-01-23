@@ -3,7 +3,7 @@ import hampers from "../../assets/images/portofolio/hampers.jpg";
 
 function Portfolio() {
   return (
-    <div className="grid grid-cols-1 h-full bg-white w-full">
+    <div className="grid grid-cols-1 h-full w-full">
       <div className="my-10">
         <div className="grid grid-cols-1 md:grid-cols-5 h-auto md:h-[539px]">
           <div className="flex items-center bg-black text-white font-bold col-span-1 md:col-span-2">

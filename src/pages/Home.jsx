@@ -12,6 +12,7 @@ import Portfolio from '../components/Home/Portfolio'
 import Review from '../components/Home/Review'
 import Faq from '../components/Home/Faq'
 import Promote from '../components/Promote'
+import Campaign from '../components/Home/Campaign'
 
 function Home() {
     return (
@@ -27,6 +28,7 @@ function Home() {
                 <Exp />
                 <Why />
                 <Portfolio />
+                <Campaign />
                 <Review />
                 <Faq />
                 <Promote />
