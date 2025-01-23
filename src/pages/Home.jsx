@@ -1,6 +1,6 @@
 import Hero from '../components/Home/Hero'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer-new'
 import Runningtext from '../components/Home/Runningtext'
 import Cute from '../components/Home/Cute'
 import Pelanggan from '../components/Home/Pelanggan'
@@ -9,6 +9,9 @@ import Parcel from '../components/Home/Parcel'
 import Exp from '../components/Home/Exp'
 import Why from '../components/Home/Why'
 import Portfolio from '../components/Home/Portfolio'
+import Review from '../components/Home/Review'
+import Faq from '../components/Home/Faq'
+import Promote from '../components/Promote'
 
 function Home() {
     return (
@@ -24,6 +27,9 @@ function Home() {
                 <Exp />
                 <Why />
                 <Portfolio />
+                <Review />
+                <Faq />
+                <Promote />
             </div>
             <Footer />
         </main>
