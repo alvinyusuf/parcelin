@@ -1,4 +1,3 @@
-import React from 'react'
 import lay1 from '../../assets/images/layanan/lay1.png'
 import lay2 from '../../assets/images/layanan/lay2.png'
 import lay3 from '../../assets/images/layanan/lay3.png'

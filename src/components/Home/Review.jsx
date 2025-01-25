@@ -1,4 +1,3 @@
-import React from "react";
 import review1 from "../../assets/images/review/review1.png"
 import review2 from "../../assets/images/review/review2.png"
 import review3 from "../../assets/images/review/review3.png"
