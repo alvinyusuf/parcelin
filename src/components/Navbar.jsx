@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import logo from '../assets/images/logo.png';
@@ -12,13 +12,13 @@ const Navbar = () => {
     const [isScrollingUp, setIsScrollingUp] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
 
-    const navLinks = [
+    const navLinks = useMemo(() => [
         { title: 'Beranda', to: '/' },
         { title: 'Tentang Kami', to: '/about' },
         { title: 'Layanan Kami', to: '/service' },
         { title: 'Kemasan Produk', to: '/product' },
         { title: 'Portofolio', to: '/portfolio' },
-    ];
+    ], []);
 
     useEffect(() => {
         const handleResize = () => {
@@ -52,7 +52,7 @@ const Navbar = () => {
         const currentPath = window.location.pathname;
         const matchedLink = navLinks.find(link => link.to === currentPath);
         setActivePage(matchedLink);
-    }, []);
+    }, [navLinks]);
 
     const toggleModal = () => {
         setShowModal(!showModal);
