@@ -1,9 +1,9 @@
 import Footer from "../components/Footer-new";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Service/Hero";
-import Layanan from "../components/Service/Layanan";
+import Hero from "../components/Product/Hero";
+import Layanan from "../components/Product/Layanan";
 
-function Service() {
+function Product() {
     return (
         <main className='flex flex-col'>
             <Navbar />
@@ -16,4 +16,4 @@ function Service() {
     )
 }
 
-export default Service;
+export default Product;
