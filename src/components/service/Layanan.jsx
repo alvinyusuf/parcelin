@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import lay1 from "../../assets/images/service-layanan/lay1.png";
 import lay2 from "../../assets/images/service-layanan/lay2.png";
 import lay3 from "../../assets/images/service-layanan/lay3.png";
@@ -10,16 +11,19 @@ function Layanan() {
       text: "Kemasan Produk",
       tags: ["Custom Box", "Plastic Packaging", "lorem"],
       img: lay1,
+      link: "/product",
     },
     {
       text: "Hampers & Corporate gift",
       tags: ["Custom Box", "Plastic Packaging", "lorem"],
       img: lay2,
+      link: "/hamper",
     },
     {
       text: "Merchandise",
       tags: ["Custom Box", "Plastic Packaging", "lorem"],
       img: lay3,
+      link: "/merchandise",
     },
     {
       text: "PR Packaging",
@@ -33,6 +37,7 @@ function Layanan() {
         "Umbrella",
       ],
       img: lay4,
+      link: "/pr-packaging",
     },
   ];
 
@@ -62,10 +67,10 @@ function Layanan() {
                   </span>
                 ))}
               </div>
-              <button className="flex items-center justify-between px-4 py-2 mt-4 bg-white border-2 border-orange-500 text-orange-500 rounded-full hover:bg-orange-500 hover:text-white transition-all">
+              <Link to={service.link} className="flex items-center justify-between px-4 py-2 mt-4 bg-white border-2 border-orange-500 text-orange-500 rounded-full hover:bg-orange-500 hover:text-white transition-all">
                 <p>Lihat Selengkapnya</p>
                 <MdArrowOutward className="w-6 h-6" />
-              </button>
+              </Link>
             </div>
           </div>
         ))}
