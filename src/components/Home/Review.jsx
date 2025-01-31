@@ -96,7 +96,6 @@ export default function Review() {
             </div>
           </div>
 
-          {/* Custom Scrollbar */}
           <div
             ref={scrollbarRef}
             className="custom-scrollbar mt-4 mx-auto w-40 h-3 bg-gray-200 rounded-full relative"
@@ -110,7 +109,6 @@ export default function Review() {
             />
           </div>
 
-          {/* Navigation Buttons */}
           <button
             onClick={() => scroll("left")}
             className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow-md hover:bg-white/90 transition-colors"

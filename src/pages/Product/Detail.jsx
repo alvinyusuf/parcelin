@@ -14,7 +14,7 @@ export default function Detail() {
   const path = `/images/product/${slug}/${subSlug}/`;
 
   return (
-    <div className="flex flex-col gap-y-10">
+    <div className="flex flex-col gap-y-10 px-4 md:px-20">
       <MainSection
         name={product.name}
         price={product.price}
@@ -37,11 +37,12 @@ export default function Detail() {
       ))}
 
       <div className="flex flex-col justify-center items-center gap-y-10 bg-gray-200 py-8">
-        <h1 className="text-2xl">Temukan inspirasi dari kami</h1>
-        <div className="flex gap-x-8">
+        <h1 className="text-xl md:text-2xl">Temukan inspirasi dari kami</h1>
+        <div className="flex flex-wrap justify-center gap-4">
           {[1, 2, 3, 4].map((i) => (
             <img
               key={i}
+              className="w-24 h-24 md:w-40 md:h-40 object-cover"
               src={`/images/product/inspired/inspired${i}.png`}
               alt={`inspired${i}`}
             />
@@ -49,9 +50,9 @@ export default function Detail() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-y-10 py-4 px-20">
-        <h1 className="text-2xl">Packaging lain</h1>
-        <div className="flex gap-x-2">
+      <div className="flex flex-col justify-center items-center gap-y-10 py-4">
+        <h1 className="text-xl md:text-2xl">Packaging lain</h1>
+        <div className="flex flex-wrap justify-center gap-4">
           {products.slice(0, 4).map((p, idx) => (
             <Card
               key={idx}
