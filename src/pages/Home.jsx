@@ -1,6 +1,5 @@
 import Hero from '../components/Home/Hero'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer-new'
 import Runningtext from '../components/Home/Runningtext'
 import Cute from '../components/Home/Cute'
 import Pelanggan from '../components/Home/Pelanggan'
@@ -13,6 +12,7 @@ import Review from '../components/Home/Review'
 import Faq from '../components/Home/Faq'
 import Promote from '../components/Promote'
 import Campaign from '../components/Home/Campaign'
+import Footer from '../components/Footer'
 
 function Home() {
     return (
