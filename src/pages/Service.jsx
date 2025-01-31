@@ -1,4 +1,4 @@
-import Footer from "../components/Footer-new";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Service/Hero";
 import Layanan from "../components/Service/Layanan";
