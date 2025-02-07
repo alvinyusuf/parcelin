@@ -6,7 +6,7 @@ function Main() {
     return (
         <main className='flex flex-col'>
             <Navbar />
-            <div className='flex flex-col w-full h-full '>
+            <div className='w-full'>
                 <Outlet />
             </div>
             <Footer />
