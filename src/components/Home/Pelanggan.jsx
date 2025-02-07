@@ -65,7 +65,7 @@ function Pelanggan() {
       {customers.map((customer, index) => (
         <div key={index} className="h-16 flex items-center justify-center mx-2">
           <img
-            className="object-contain max-h-16 mx-auto px-8 py-2 rounded-lg shadow-md bg-gray-200"
+            className="object-contain max-h-16 mx-auto px-8 py-2 rounded-lg shadow-md bg-white"
             src={customer.src}
             alt={customer.name}
           />
@@ -75,7 +75,7 @@ function Pelanggan() {
   );
 
   return (
-    <div className="grid grid-cols-1 h-fit bg-gray-300 bg-opacity-70">
+    <div className="grid grid-cols-1 h-fit bg-gray-200 bg-opacity-70">
       <div className="my-10">
         <div className="space-y-6">
           <div className="md:w-1/2 mx-auto">

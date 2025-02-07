@@ -6,7 +6,7 @@ import team5 from "../../assets/images/team/team5.jpg";
 
 function Team() {
   return (
-    <div className="flex items-center justify-center md:py-12 md:px-48 bg-white my-20 mx-auto w-screen-lg h-screen">
+    <div className="flex items-center justify-center md:p-12 bg-white my-20 mx-auto w-screen-lg h-screen">
       <div className="flex flex-col gap-y-4 h-full">
         <div className="flex items-center justify-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-8">Tim Kami</h1>
