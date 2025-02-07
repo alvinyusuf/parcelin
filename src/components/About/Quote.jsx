@@ -3,16 +3,16 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 
 function QuoteSection() {
   return (
-    <div className="max-w-6xl mx-auto p-4 md:p-12">
+    <div className="mx-auto p-4 md:p-12">
       <div className="relative rounded-lg flex items-center justify-center">
         <div className="flex flex-col justify-center p-4 md:p-12 min-h-[300px] md:min-h-[400px] z-10">
-          <div className="w-full md:w-[600px] relative">
+          <div className="w-full md:w-[700px] relative">
             <RiDoubleQuotesL
               color="#D4B4A2"
               size={80}
-              className="absolute -top-12 -left-8 md:-top-20 md:-left-16 z-0"
+              className="absolute -top-12 -left-8 md:-top-12 md:-left-10 z-0"
             />
-            <h1 className="text-3xl md:text-5xl z-10 relative">
+            <h1 className="text-3xl md:text-6xl z-10 relative">
               Packaging Can be Theatre, It Can Create Story
             </h1>
             <p className="ps-8 md:ps-16 text-4xl md:text-7xl font-bold text-[#D4B4A2] relative">

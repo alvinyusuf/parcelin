@@ -1,31 +1,22 @@
 import { IoIosArrowForward } from "react-icons/io";
-import ready from "../assets/images/ready.jpg";
+import background from "../../assets/images/about/hero.png";
 
-function Contactus() {
+function Hero() {
   return (
     <div className="grid grid-cols-1 bg-black">
-      <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+      <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
         <img
-          src={ready}
+          src={background}
           alt="Business desk with laptop and papers"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-yellow-900 opacity-60"></div>
-        <div className="relative z-10 xl:flex h-full justify-between items-center p-4 xl:p-8">
+              <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+
+        <div className="relative z-10 h-full p-4 xl:p-8 my-44">
           <div className="my-14">
-            <h1 className="text-white text-left text-xl xl:text-8xl font-extrabold drop-shadow-md">
-              CONTACT US
+            <h1 className="text-white text-center text-xl xl:text-8xl font-extrabold drop-shadow-md">
+              Hubungi Kami
             </h1>
-          </div>
-          <div className="xl:w-1/3 my-auto">
-            <p className="text-white text-left text-xs xl:text-xl font-bold drop-shadow-md">
-              What problems can we solve for your brand?
-            </p>
-            <p className="text-white text-left text-xs xl:text-xl font-bold drop-shadow-md">
-              Insight led, culturally intelligent, globally relevant,
-              platform-agnostic. We partner with clients to drive business
-              outcomes.
-            </p>
           </div>
         </div>
       </div>
@@ -180,4 +171,4 @@ function Contactus() {
   );
 }
 
-export default Contactus;
+export default Hero;
