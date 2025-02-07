@@ -1,19 +1,17 @@
+import Hero from "../components/Contact/Hero";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Service/Hero";
-import Layanan from "../components/Service/Layanan";
 
-function Service() {
+
+function Contact() {
     return (
         <main className='flex flex-col'>
             <Navbar />
             <div className='w-full mx-auto'>
                 <Hero />
-                <Layanan />
             </div>
             <Footer />
-        </main>
-    )
+        </main>)
 }
 
-export default Service;
+export default Contact

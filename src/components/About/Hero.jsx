@@ -2,19 +2,20 @@ import background from "../../assets/images/about/hero.png";
 
 function Hero() {
   return (
-    <div className="relative bg-gray-900 text-white">
-      <div className="absolute inset-0">
-        <img
-          src={background}
-          alt="Hero Background"
-          className="w-full h-full object-cover opacity-80"
-        />
-      </div>
-
+    <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
+      <img
+        src={background}
+        alt="Business desk with laptop and papers"
+        className="absolute inset-0 w-full h-full object-cover object-center"
+      />
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
-      <div className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">About Us</h1>
+      <div className="relative z-10 h-full p-4 xl:p-8 my-44">
+        <div className="my-14">
+          <h1 className="text-white text-center text-xl xl:text-8xl font-light drop-shadow-md">
+            About Us
+          </h1>
+        </div>
       </div>
     </div>
   );

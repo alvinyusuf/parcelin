@@ -6,8 +6,8 @@ function Main() {
     return (
         <main className='flex flex-col'>
             <Navbar />
-            <div className='flex flex-col w-full h-full py-24'>
-              <Outlet />
+            <div className='w-full'>
+                <Outlet />
             </div>
             <Footer />
         </main>
