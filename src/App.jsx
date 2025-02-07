@@ -6,6 +6,7 @@ import Main from "./pages/Product/Main"
 import Product from "./pages/Product/Product"
 import SubProduct from "./pages/Product/SubProduct"
 import Detail from "./pages/Product/Detail"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path=":subSlug" element={<Detail />} />
         </Route>
       </Route>
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<h1>404 Not Found</h1>} />
     </Routes>
   )

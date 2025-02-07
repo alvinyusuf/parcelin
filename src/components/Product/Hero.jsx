@@ -22,7 +22,7 @@ function Hero() {
           berkualitas, hingga PR packaging yang memukau. ParcelinPack siap
           membantu Anda menciptakan kesan terbaik untuk setiap momen dan
           kebutuhan bisnis Anda.
-        </p>{" "}
+        </p>
       </div>
     </div>
   );
