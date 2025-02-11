@@ -1,7 +1,8 @@
 import Hero from "../components/Contact/Hero";
+import Hubungi from "../components/Contact/Hubungi";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-
+import Promote from '../components/Promote'
 
 function Contact() {
     return (
@@ -9,6 +10,8 @@ function Contact() {
             <Navbar />
             <div className='w-full mx-auto'>
                 <Hero />
+                <Hubungi />
+                <Promote />
             </div>
             <Footer />
         </main>)

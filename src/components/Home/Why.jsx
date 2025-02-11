@@ -18,6 +18,12 @@ function Why() {
       image: why2,
     },
     {
+      text: "Kreatif",
+      description:
+        "Kami mengutamakan kreativitas dalam setiap desain kemasan, menciptakan inovasi yang unik dan menarik. Parcelinpack membantu produk Anda tampil menonjol, memberikan kesan profesional, sekaligus meningkatkan daya tarik dan nilai jual di pasaran.",
+      image: why2,
+    },
+    {
       text: "Minimal Order Rendah",
       description:
         "Dengan minimum order mulai dari 10 hard box dan 50 untuk tipe packaging lainnya, kami hadir dengan komitmen untuk mendukung semua bisnis agar bisa mendapatkan packaging yang berkualitas.",
@@ -39,11 +45,11 @@ function Why() {
         </h1>
       </div>
 
-      <div className="flex space-x-4 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-6 scrollbar-hide">
+      <div className="flex space-x-4 w-full overflow-scroll md:gap-6 scrollbar-hide">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex-shrink-0 md:flex-shrink bg-gray-100 rounded-2xl overflow-hidden w-64 md:w-auto"
+            className="flex-shrink-0 bg-gray-100 rounded-2xl overflow-auto w-80"
           >
             <img
               src={service.image}
