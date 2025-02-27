@@ -86,13 +86,13 @@ function Why() {
 
       <div
         ref={scrollContainerRef}
-        className="flex overflow-x-auto space-x-2 md:space-x-4 max-w-[90vw] md:max-w-[95vw] scrollbar-hide"
+        className="flex overflow-x-auto snap-x snap-mandatory space-x-4 md:space-x-4 mx-auto max-w-full px-4 md:px-0 pb-4 scrollbar-hide"
         onScroll={updateScrollbarThumb}
       >
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex-none w-1/4 space-y-4 py-4 bg-gray-100 rounded-2xl overflow-hidden"
+            className="flex-none w-full md:w-1/4 snap-center space-y-4 py-4 bg-gray-100 rounded-2xl overflow-hidden"
           >
             <div className="h-48">
               <img
