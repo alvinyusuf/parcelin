@@ -10,7 +10,7 @@ function Runningtext() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 6000,
+    speed: 8000,
     autoplaySpeed: 0,
     cssEase: "linear",
     arrows: false,

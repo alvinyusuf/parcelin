@@ -51,14 +51,14 @@ function Pelanggan() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 6000,
+    speed: 10000,
     autoplaySpeed: 0,
     cssEase: "linear",
     arrows: false,
     variableWidth: true,
   };
 
-  const settings2 = { ...settings, rtl: true };
+  const settings2 = { ...settings, rtl: true, speed: 10000 };
 
   const renderSlider = (customers, settingsToUse) => (
     <Slider {...settingsToUse}>
