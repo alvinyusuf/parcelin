@@ -57,7 +57,6 @@ export default function Review() {
 
   return (
     <div className="grid place-items-center h-full bg-[#FEF7EE] rounded-xl overflow-hidden">
-      {" "}
       <div className="text-center space-y-3 md:space-y-6 my-10 md:my-36 lg:my-10">
         <h1 className="text-3xl">Apa Kata Mereka</h1>
         <p>
@@ -65,14 +64,16 @@ export default function Review() {
           solusi packaging brand mereka!
         </p>
         <div className="flex justify-center">
-          <iframe
+          <video
             className="rounded-lg w-64 md:w-96 aspect-video"
-            src="https://www.youtube.com/embed/eMR4Sf4ovNM"
-            title="Apa Kata Mereka"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+            controls
+            autoPlay
+          >
+            <source src="/videos/testimoni.mp4" type="video/mp4" />
+            Browser Anda tidak mendukung tag video.
+          </video>
         </div>
+
         <div className="relative">
           <div
             ref={scrollContainerRef}
