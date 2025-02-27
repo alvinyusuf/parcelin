@@ -2,6 +2,7 @@ import why1 from "../../assets/images/why/why1.svg";
 import why2 from "../../assets/images/why/why2.png";
 import why3 from "../../assets/images/why/why3.png";
 import why4 from "../../assets/images/why/why4.png";
+import why5 from "../../assets/images/why/why5.png"
 
 function Why() {
   const services = [
@@ -12,10 +13,10 @@ function Why() {
       image: why1,
     },
     {
-      text: "Kreatif",
+      text: "Variatif",
       description:
-        "Kami mengutamakan kreativitas dalam setiap desain kemasan, menciptakan inovasi yang unik dan menarik. Parcelinpack membantu produk Anda tampil menonjol, memberikan kesan profesional, sekaligus meningkatkan daya tarik dan nilai jual di pasaran.",
-      image: why2,
+        "Parcelinpack menghadirkan berbagai pilihan kemasan yang fleksibel dan dapat disesuaikan dengan kebutuhan setiap bisnis, mulai dari bentuk, bahan, hingga desain, memastikan solusi kemasan terbaik yang sesuai dengan karakter produk Anda",
+      image: why5,
     },
     {
       text: "Kreatif",
@@ -39,7 +40,7 @@ function Why() {
 
   return (
     <div className="bg-white py-10 px-4 md:px-20">
-      <div className="text-center mb-10">
+      <div className="text-left md:text-center mb-10">
         <h1 className="text-3xl md:text-5xl font-light text-black">
           Kenapa Parcelinpack
         </h1>

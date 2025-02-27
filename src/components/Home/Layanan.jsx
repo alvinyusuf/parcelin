@@ -31,11 +31,11 @@ function Layanan() {
         <div className='mx-4 md:mx-20'>
           <h1 className='text-2xl md:text-5xl font-light'>Layanan Kami</h1>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-4 px-10 gap-0.5 md:gap-2'>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-0.5 md:gap-2'>
           {services.map((service, index) => (
             <div key={index} className='relative'>
               <div className='relative'>
-                <img className='w-full h-60 md:h-full object-cover inset-0 rounded-xl' src={service.img} alt="" />
+                <img className='w-full h-44 md:h-full object-cover inset-0 rounded-3xl' src={service.img} alt="" />
                 <div className='absolute bottom-3 md:bottom-3 left-5 w-5/6 md:w-4/5 '>
                   <div className='flex justify-between gap-x-2'>
                     <div className='shadow-xl p-1 bg-gray-700 bg-opacity-50  rounded-xl my-auto px-4'>

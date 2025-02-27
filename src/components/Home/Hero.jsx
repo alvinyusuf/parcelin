@@ -2,19 +2,96 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import hero1 from '../../assets/images/hero1.png';
-import hero2 from '../../assets/images/hero2.png';
-import hero3 from '../../assets/images/hero3.png';
-import hero4 from '../../assets/images/hero4.png';
-import hero5 from '../../assets/images/hero5.png';
-import hero6 from '../../assets/images/hero6.png';
-import hero7 from '../../assets/images/hero7.png';
-import hero8 from '../../assets/images/hero8.png';
-import hero9 from '../../assets/images/hero9.png';
-import hero10 from '../../assets/images/hero10.png';
 
 function Hero() {
-  const images = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8, hero9, hero10];
+  const slides = [
+    {
+      image: "hero1.png",
+      title: "Packaging for Eid Mubarak",
+      products: [
+        "Hardbox",
+        "Seasonal Packaging",
+        "Hampers",
+      ],
+    },
+    {
+      image: "hero2.png",
+      title: "Marchandise for Brand",
+      products: [
+        "Hardbox",
+        "Hampers",
+        "Marchandise",
+      ],
+    },
+    {
+      image: "hero3.png",
+      title: "Packaging for CNY",
+      products: [
+        "Hardbox",
+        "Seasonal Packaging",
+        "Hampers",
+      ],
+    },
+    {
+      image: "hero4.png",
+      title: "Packaging for Food",
+      products: [
+        "Corrugated Box",
+        "Food Packaging",
+      ],
+    },
+    {
+      image: "hero5.png",
+      title: "Packaging for Christmas",
+      products: [
+        "Hardbox",
+        "Seasonal Packaging",
+        "Hampers",
+      ],
+    },
+    {
+      image: "hero6.png",
+      title: "Branding Item",
+      products: [
+        "Label Baju",
+        "Hang Tag",
+      ],
+    },
+    {
+      image: "hero7.png",
+      title: "Hard Box for Tea Set",
+      products: [
+        "Hardbox",
+        "PR Packaging",
+      ],
+    },
+    {
+      image: "hero8.png",
+      title: "Custom Bag",
+      products: [
+        "PR Packaging",
+        "Seasonal Packaging",
+        "Hampers",
+      ],
+    },
+    {
+      image: "hero9.png",
+      title: "Packaging for Hijab",
+      products: [
+        "Hardbox",
+        "Soft Box",
+      ],
+    },
+    {
+      image: "hero10.png",
+      title: "PR Packaging for Brand",
+      products: [
+        "Hardbox",
+        "PR Packaging",
+        "Hampers",
+      ],
+    }
+  ]
 
   return (
     <div className="w-full h-screen overflow-hidden relative">
@@ -25,13 +102,26 @@ function Hero() {
         loop
         className="w-full h-full"
       >
-        {images.map((image, index) => (
+        {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <img 
-              src={image} 
-              alt={`Slide ${index + 1}`} 
-              className="w-full h-screen object-cover md:object-fill"
+            <img
+              src={`/images/hero/${slide.image}`}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-full object-cover md:object-fill"
             />
+            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute bottom-8 px-6 text-white space-y-6">
+              <h2 className="text-4xl md:text-6xl">
+                {slide.title}
+              </h2>
+              <ul className="hidden md:flex gap-x-32">
+                {slide.products.map((product, index) => (
+                  <li key={index} className="text-2xl">
+                    {product}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

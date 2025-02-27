@@ -75,15 +75,18 @@ function Pelanggan() {
   );
 
   return (
-    <div className="grid grid-cols-1 h-fit bg-gray-200 bg-opacity-70">
+    <div className="grid grid-cols-1 h-fit bg-gray-100 bg-opacity-70">
       <div className="my-10">
         <div className="space-y-6">
           <div className="md:w-1/2 mx-auto">
-            <h1 className="text-2xl md:text-5xl text-center font-bold">
+            <h1 className="text-4xl md:text-5xl text-center font-bold">
               7500+ Pelanggan
             </h1>
-            <h1 className="text-xl md:text-3xl text-center font-light">
-              Sudah mempercayakan packagingnya kepada Kami
+            <h1 className="text-xl md:text-3xl text-center font-extralight">
+              Sudah mempercayakan
+            </h1>
+            <h1 className="text-xl md:text-3xl text-center font-extralight">
+              packagingnya kepada Kami
             </h1>
           </div>
           <div className="space-y-6">
