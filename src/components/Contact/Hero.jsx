@@ -12,7 +12,7 @@ function Hero() {
 
       <div className="relative z-10 h-full p-4 xl:p-8 my-44">
         <div className="md:my-14">
-          <h1 className="text-white text-center text-xl xl:text-8xl font-light drop-shadow-md">
+          <h1 className="text-white text-center text-3xl xl:text-8xl font-light drop-shadow-md">
             Hubungi Kami
           </h1>
         </div>

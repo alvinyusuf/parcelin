@@ -38,7 +38,10 @@ function Faq() {
           <div className="flex items-center col-span-1">
             <div className="space-y-4">
               <h1 className="text-3xl md:text-4xl">
-                Dapatkan Packaging Terbaik untuk Bisnismu!
+                Dapatkan Packaging Terbaik
+              </h1>
+              <h1 className="text-3xl md:text-4xl">
+                untuk Bisnismu!
               </h1>
               <p>
                 Dapatkan packaging terbaik untuk bisnismu! Dengan desain menarik
@@ -65,9 +68,8 @@ function Faq() {
                 </button>
 
                 <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    openIndex === index ? "max-h-40 pb-5" : "max-h-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? "max-h-40 pb-5" : "max-h-0"
+                    }`}
                 >
                   <p className="text-gray-600">{faq.answer}</p>
                 </div>

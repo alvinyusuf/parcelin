@@ -10,10 +10,11 @@ function Hubungi() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div className="bg-gray-100 p-4 rounded-xl space-y-4 my-auto">
                         <div>
-                            <h1 className="text-xl md:text-2xl font-extralight">Hubungi Kami</h1>
+                            <h1 className="text-2xl md:text-2xl font-extralight">Hubungi Kami</h1>
                         </div>
                         <div>
-                            <h1 className="text-2xl md:text-4xl font-light">Konsultasikan Packaging Anda</h1>
+                            <h1 className="text-2xl md:text-4xl font-light">Konsultasikan</h1>
+                            <h1 className="text-2xl md:text-4xl font-light">Packaging Anda</h1>
                         </div>
                         <div>
                             <div className="">
@@ -60,13 +61,13 @@ function Hubungi() {
                                     <FaWhatsapp className="w-10 md:w-14 h-10 md:h-14 mx-auto" />
                                 </div>
                                 <div className="text-center space-y-2">
-                                    <h1 className="text-lg md:text-2xl font-extrabold">
+                                    <h1 className="text-lg md:text-2xl font-extrabold font-sans">
                                         Whatsapp
                                     </h1>
-                                    <h1 className="text-base md:text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         +62 819-4002-020
                                     </h1>
-                                    <h1 className="text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         +62 822-2500-7380
                                     </h1>
                                 </div>
@@ -76,10 +77,10 @@ function Hubungi() {
                                     <SiGmail className="w-10 md:w-14 h-10 md:h-14 mx-auto" />
                                 </div>
                                 <div className="text-center space-y-2">
-                                    <h1 className="text-lg md:text-2xl font-extrabold">
-                                        Email
+                                <h1 className="text-lg md:text-2xl font-extrabold font-sans">
+                                Email
                                     </h1>
-                                    <h1 className="text-base md:text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         hello@parcelinpack.id
                                     </h1>
                                 </div>
@@ -89,13 +90,13 @@ function Hubungi() {
                                     <FaInstagram className="w-10 md:w-14 h-10 md:h-14 mx-auto" />
                                 </div>
                                 <div className="text-center">
-                                    <h1 className="text-lg md:text-2xl font-extrabold">
-                                        Instagram
+                                <h1 className="text-lg md:text-2xl font-extrabold font-sans">
+                                Instagram
                                     </h1>
-                                    <h1 className="text-base md:text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         @parcelinpack
                                     </h1>
-                                    <h1 className="text-base md:text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         @parcelinpremium
                                     </h1>
                                 </div>
@@ -105,10 +106,10 @@ function Hubungi() {
                                     <FaTiktok className="w-10 md:w-14 h-10 md:h-14 mx-auto" />
                                 </div>
                                 <div className="text-center">
-                                    <h1 className="text-lg md:text-2xl font-extrabold">
-                                        Tiktok
+                                <h1 className="text-lg md:text-2xl font-extrabold font-sans">
+                                Tiktok
                                     </h1>
-                                    <h1 className="text-base md:text-xl font-light">
+                                    <h1 className="text-base md:text-xl font-light font-sans">
                                         @parcelincompany
                                     </h1>
                                 </div>

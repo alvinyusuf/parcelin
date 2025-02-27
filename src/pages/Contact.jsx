@@ -1,6 +1,7 @@
 import Hero from "../components/Contact/Hero";
 import Hubungi from "../components/Contact/Hubungi";
 import Footer from "../components/Footer";
+import Mitra from "../components/mitra";
 import Navbar from "../components/Navbar";
 import Promote from '../components/Promote'
 
@@ -11,7 +12,12 @@ function Contact() {
             <div className='w-full mx-auto'>
                 <Hero />
                 <Hubungi />
+                <div className="hidden md:flex">
+                <Mitra />
+                </div>
+                <div className="flex md:hidden">
                 <Promote />
+                </div>
             </div>
             <Footer />
         </main>)

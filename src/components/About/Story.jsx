@@ -13,20 +13,20 @@ function Story() {
             className="w-full h-full object-cover rounded-lg shadow-md"
           />
         </div>
-          <p className="text-sm md:text-sm leading-relaxed">
+          <p className="text-sm md:text-2xl leading-relaxed">
             PT Parcelin Creative Indonesia, atau yang lebih dikenal sebagai
             Parcelinpack, adalah perusahaan packaging yang melayani bisnis lokal
             maupun internasional, mulai dari UMKM hingga perusahaan
             multinasional di berbagai industri.
           </p>
-          <p className="text-sm md:text-sm leading-relaxed">
+          <p className="text-sm md:text-2xl leading-relaxed">
             Kami menyediakan solusi kemasan berkualitas tinggi yang dipadukan
             dengan kreativitas, membantu produk Anda tampil stand out di pasar
             yang kompetitif. Lebih dari sekadar penyedia layanan, kami
             berkomitmen menjadi mitra profesional yang terpercaya dan peduli,
             selalu siap bekerja bersama Anda.
           </p>
-          <p className="text-sm md:text-sm leading-relaxed">
+          <p className="text-sm md:text-2xl leading-relaxed">
             Bersama, kami hadir untuk memberikan solusi yang tak hanya menjawab
             kebutuhan, tetapi juga melampaui ekspektasi Anda.
           </p>
