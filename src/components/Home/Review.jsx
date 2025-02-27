@@ -1,11 +1,10 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 export default function Review() {
-
   const reviews = [
     { src: "/images/review/review1.png", alt: "Review 1" },
     { src: "/images/review/review2.png", alt: "Review 2" },
@@ -35,20 +34,34 @@ export default function Review() {
 
         <div className="w-screen relative">
           <Swiper
-          modules={[Navigation, Autoplay]}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop
-          slidesPerView={3.5}
-          spaceBetween={20}
-          className="w-full h-full"
-        >
+            modules={[Navigation, Autoplay]}
+            navigation
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop
+            spaceBetween={20}
+            className="w-full h-full"
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+              },
+              768: {
+                slidesPerView: 2.5,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 3.5,
+                spaceBetween: 20,
+              },
+            }}
+          >
             {reviews.map((review, index) => (
-              <SwiperSlide key={index} className='flex justify-center'>
-                <img
-                  src={review.src}
-                  alt={review.alt}
-                  className='rounded-xl'
-                />
+              <SwiperSlide key={index} className="flex justify-center">
+                <img src={review.src} alt={review.alt} className="rounded-xl" />
               </SwiperSlide>
             ))}
           </Swiper>
