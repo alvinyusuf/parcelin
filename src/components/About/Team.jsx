@@ -6,7 +6,7 @@ import team5 from "../../assets/images/team/team5.jpg";
 
 function Team() {
   return (
-    <div className="flex items-center justify-center md:p-12 bg-white mx-auto w-screen-lg ">
+    <div className="flex items-center justify-center md:p-12 bg-white mx-auto w-screen-lg md:h-screen">
       <div className="flex flex-col gap-y-4 h-full">
         <div className="flex items-center justify-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-8">Tim Kami</h1>
@@ -30,7 +30,7 @@ function Team() {
           <div className="w-3/4 flex flex-col gap-2">
             <div className="h-1/2 flex gap-2">
               <div className="w-2/5 h-full">
-                <p className="text-sm">
+                <p className="text-2xl">
                   Di Parcelinpack, kami percaya bahwa kemasan terbaik lahir dari
                   kolaborasi para ahli. Tim kami terdiri dari tenaga profesional
                   yang berpengalaman, kreatif, dan berdedikasi, siap membantu

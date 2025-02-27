@@ -51,7 +51,7 @@ function Pelanggan() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 6000,
+    speed: 10000,
     autoplaySpeed: 0,
     cssEase: "linear",
     arrows: false,
